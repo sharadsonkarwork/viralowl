@@ -56,3 +56,5 @@ $('#categoryCarousel').owlCarousel({
     },
     navText: ["<img src='./images/icon-prev-hook.png'>","<img src='./images/icon-next-hook.png'>"]
 });
+
+

@@ -931,3 +931,119 @@ footer .quick-links a{
 .social-links.share-via > li{
     padding: 0 5px;
 }
+.bg-img{
+    background: #21212E url(../images/body-bg.png) no-repeat;
+    background-size: cover;
+}
+
+.search-topic .form-control {
+    background: #232333;
+    border-color: #8FCD2E;
+    height: 46px;
+}
+.aside-bar h3 {
+    line-height: 1.2;
+    color: #CCCCCC;
+}
+.aside-navbar {
+    border: 1px solid #46C2FF;
+    margin-top: 20px;
+}
+.aside-navbar ul > li > a {
+    display: block;
+    padding: 10px 10px;
+    text-transform: capitalize;
+    font-size: 18px;
+    border-bottom: 1px solid #46C2FF;
+}
+.aside-navbar ul > li:last-child > a{
+    border-bottom: none;
+}
+.aside-navbar ul > li > a:hover, .aside-navbar ul > li.active > a{
+    color: #46C2FF;
+}
+
+
+/* forum */
+.sec-forum {
+    padding: 100px 0;
+}
+.questions {
+    padding: 20px;
+}
+.question-summary .user-info {
+    margin-bottom: 25px;
+}
+.user-avatar {
+    width: 80px;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 80px;
+    margin-right: 20px;
+}
+.user-info {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.user-detail p {
+    font-size: 22px;
+}
+.user-detail span {
+    font-size: 14px;
+    font-weight: 300;
+}
+.statscontainer {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.question-summary {
+    border-bottom: 1px solid #46C2FF;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+}
+.query {
+    margin-bottom: 30px;
+}
+.query h5{
+    margin-bottom: 15px;
+    font-weight: 500;
+}
+.query p{
+    font-size: 15px;
+}
+.stats-likes {
+    margin-right: 25px;
+}
+.stats-likes i {
+    color: #46C2FF;
+    font-size: 18px;
+    margin-right: 3px;
+}
+.stats-replies i{
+    color: #8FCD2E;
+    font-size: 18px;
+    margin-right: 3px;
+}
+.report-topic {
+    color: #46C2FF;
+}
+.cardboard.mb-200 {
+    margin-bottom: 200px;
+}
+.pagination{
+    justify-content: center;
+}
+.page-link {
+    background: transparent;
+    border: none;
+    color: #46C2FF;
+}
+.page-link:hover {
+    background: none;
+}
+.question-summary:last-child {
+    border: none;
+}
