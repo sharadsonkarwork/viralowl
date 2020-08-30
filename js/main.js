@@ -58,3 +58,23 @@ $('#categoryCarousel').owlCarousel({
 });
 
 
+$(document).ready(function(){
+    var owl = $('#img-slider');
+      owl.owlCarousel({
+          autoplay: false,
+          autoplayTimeout: 4000,
+          loop: true,
+          dots:false,
+          items: 1,
+          center: true,
+          nav: false,
+          thumbs: true,
+          thumbImage: false,
+          thumbsPrerendered: true,
+          thumbContainerClass: 'owl-thumbs',
+          thumbItemClass: 'owl-thumb-item',
+      });
+});
+
+
+  
