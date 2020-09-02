@@ -66,7 +66,7 @@ a:hover, a:active {
 	text-decoration: none;
 }
 img{
-	width: 100%;
+	max-width: 100%;
 }
 h1{
 	font-size: 76px;
@@ -76,6 +76,9 @@ h2{
 }
 h3{
 	font-size: 45px;
+}
+h4{
+	font-size: 38px;
 }
 h5{
 	font-size: 23px;
@@ -934,6 +937,7 @@ footer .quick-links a{
 .bg-img{
     background: #21212E url(../images/body-bg.png) no-repeat;
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .search-topic .form-control {
@@ -1328,4 +1332,96 @@ textarea.form-control{
 }
 .address-container {
     margin-top: 40px;
+}
+/* FAQ */
+.secfaq{
+    padding: 70px 50px;
+}
+.secfaq h2{
+    line-height: 1.5;
+}
+.secfaq h2 span{
+    max-width: 60px;
+    display: inline-block;
+}
+.secfaq h4{
+    line-height: 1.5;
+}
+.secfaq h4 a{
+    color: #46C2FF;
+}
+
+.faq-container {
+    margin-top: 70px;
+}
+.panel-heading {
+    padding: 0;
+    border:0;
+}
+.panel.panel-default {
+    margin-bottom: 20px;
+    background: none;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    box-shadow: 0 1px 1px rgba(0,0,0,.05);
+    border-radius: 4px;
+}
+.panel-title > a{
+    display: flex;
+    padding: 15px;
+    font-size: 20px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-weight: 300;
+    color: #6D6D79;
+    border: 1px solid #00EC98;
+    border-radius: 5px;
+    min-height: 64px;
+    align-items: center;
+    position: relative;
+    flex-wrap: wrap;
+    transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+}
+.panel-heading.active .panel-title > a{
+    color: #00EC98;
+    position: relative;
+}
+.panel-heading a:before {
+    width: 0;
+    height: 0;
+    border: 7px solid transparent;
+    border-top: 7px solid;
+    border-right: 7px solid;
+    content: "";
+    margin: 2px;
+    transform: rotate(135deg);
+    position: absolute;
+    right: 40px;
+}
+.panel-heading.active a:before {
+    -webkit-transform: rotate(315deg);
+    -moz-transform: rotate(315deg);
+    transform: rotate(315deg);
+    right: 26px;
+    top: 29px;
+}
+.panel-body {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-top: 0;
+    border-radius: 5px;
+}
+.icon-sprite {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    background: url(../images/user-sprite.png) no-repeat;
+    background-size: cover;
+    margin-right: 20px;
+}
+.panel-heading.active .panel-title > a .icon-sprite {
+    background-position-x: -33px;
 }
